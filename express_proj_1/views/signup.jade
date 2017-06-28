@@ -1,0 +1,19 @@
+doctype html
+html
+    head
+        title
+            | Signup
+    body
+
+        h1 Signup
+        form( method="POST" action="/api/signup")
+            input(type="text" placeholder="Name" name="name" required)
+            br
+            input(type="password" placeholder="Password" name="password" required)
+            br
+            input(type="number" name="mobile" placeholder="Mobile no" required)
+            br
+            input(type="email" name="email" placeholder="Email")
+            br
+            br
+            input(type="submit" name="signup" text="Signup")
